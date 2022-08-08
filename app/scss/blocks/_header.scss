@@ -1,0 +1,28 @@
+.header {
+/*   padding-top: 48px; */
+  z-index: 5;
+  position: relative;
+}
+.menu {
+  position: absolute;
+  height: 92px;
+  display: flex;
+  align-items: flex-end;
+  &__list {
+    display: flex;     
+  }
+  &__list-item+
+  &__list-item {
+    margin-left: 60px;
+  }
+  &__list-link {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+  }
+}
+/* .header--position {
+  position: relative;
+  padding-top: 0;
+} */

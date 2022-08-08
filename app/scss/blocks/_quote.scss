@@ -1,0 +1,28 @@
+.quote {
+  padding: 175px 0 90px;
+  background: #f7f3ed;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__avatar-img {
+    margin-right: 60px;
+    flex: 0 2 auto;
+    border-radius: 50%;
+    width: 285px;
+    height: 285px;
+    object-fit: cover;
+  }
+  &__avatar-name {
+    font-family: 'OpenSans', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    margin-top: 12px;
+  }
+  &__text {
+    max-width: 1055px;
+    padding-bottom: 40px;
+  }
+}

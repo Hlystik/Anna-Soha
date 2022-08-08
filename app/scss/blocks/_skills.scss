@@ -1,0 +1,50 @@
+.skills {
+  padding: 70px 0;
+  background: #F7F3ED;
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  &__item {
+    max-width: 440px;
+    border: 1px solid #000000;
+    padding: 34px 10px 34px;
+    text-align: center;
+  }
+
+  &__item-title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 33px;
+  }
+
+  &__item-descr {
+    font-size: 32px;
+    line-height: 37px;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-top: 83px;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 40px;
+    line-height: 54px;
+    text-decoration-line: underline;
+  }
+
+  &__photo {
+    margin-top: 83px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__photo-img {
+    max-width: 320px;
+    max-height: 478px;
+    object-fit: cover;
+  }
+}

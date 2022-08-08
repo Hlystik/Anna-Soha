@@ -1,0 +1,25 @@
+.teacher {
+  padding: 111px 0 138px;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__info {
+    max-width: 672px;
+  }
+
+  &__info-title {
+    font-size: 64px;
+    line-height: 74px;
+    margin-bottom: 20px;
+  }
+  &__photo {
+    max-width: 596px;
+    max-height: 894px;
+    object-fit: cover;
+  }
+}
+

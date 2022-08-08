@@ -1,0 +1,16 @@
+.social {
+  padding: 175px 0 90px;
+  background: #f7f3ed;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__link {
+    flex: 0 0 auto;
+  }
+  &__text {
+    font-size: 32px;
+    line-height: 37px;
+    margin-left: 46px;
+  }
+}
