@@ -49,6 +49,12 @@
   background-position: center;
   background-size: contain;
 }
+.course--product {
+  background: url('../../images/bg-product.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
 .course-info {
   padding: 156px 0 182px;
   &__items {
@@ -275,6 +281,7 @@
     justify-content: center;
   }
   &__item {
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -289,7 +296,6 @@
     }
   }
   &__item--live {
-    background: #FFFFFF;
     margin-top: 44px;
   }
   &__item-title {

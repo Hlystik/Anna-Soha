@@ -1,0 +1,168 @@
+.product {
+  padding: 113px 0 44px;
+  &__title {
+      @extend %title-font;
+      margin-bottom: 57px;
+  }
+}
+.tariffs {
+  &__item-img {
+      margin: 0 auto;
+  }
+  &__slider {
+      margin-top: 20px;
+  }
+  &__slider-box {
+      width: 432px;
+      height: 486px;
+  }
+  &__slider-img {
+      margin: 0 auto;
+  }
+}
+.product-blockone {
+  padding: 63px 0 50px;
+  background: #F7F3ED;
+
+  &__item {
+    padding: 88px 87px 88px 42px;
+    margin-bottom: 92px;
+    background: #FFFFFF;
+  }
+
+  &__item-title {
+    @extend %product-title;
+  }
+
+  &__button-btn {
+    background: #7BA7FC;
+  }
+
+  &__info {
+    font-size: 48px;
+    line-height: 55px;
+    max-width: 1110px;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+.check-list {
+  margin-top: 70px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 90px;
+    align-items: center;
+  }
+
+  &__header-title {
+    @extend %product-title;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__header-price {
+    @extend %product-title;
+    padding-right: 40px;
+  }
+
+  &__header-btn {
+    display: block;
+    width: 306px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0 25px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37px;
+    border: none;
+    color: #fff;
+    background: #ff8562;
+    border-radius: 15px;
+    &:hover {
+      box-shadow: 0px -2px 12px 4px rgba(0, 0, 0, .3);
+    }
+  }
+
+  &__descr {
+    font-size: 40px;
+    line-height: 46px;
+    margin-top: 40px;
+  }
+  &__item {
+    margin-top: 40px;
+    padding-right: 270px;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  &__item-descr {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  &__item ul {
+    list-style-type: disc;
+  }
+  &__list-item {
+    font-size: 40px;
+    line-height: 46px;
+  }
+}
+.product-blocktwo {
+  padding-bottom: 135px;
+}
+.product-blockthree {
+  padding: 1px 0 120px;
+  background: #F7F3ED;
+}
+.product-blockall {
+  padding: 63px 0 100px;
+
+  &__item {
+    padding: 68px 87px 68px 42px;
+  }
+
+  &__item-title {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  &__price {
+    margin-right: 41px;
+  }
+
+  &__price-old del {
+    font-size: 48px;
+    line-height: 55px;
+  }
+
+  &__price-new {
+    @extend %product-title;
+  }
+
+  &__button-btn {
+    background: #7BA7FC;
+  }
+
+  &__text {
+    margin-top: 424px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+  }
+}
+
+
+
