@@ -27,21 +27,6 @@
       
     }
   }
-
-  &__btn {
-    display: block;
-    width: 350px;
-    text-align: center;
-    margin: 60px auto 0;
-    padding: 35px 0 35px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 41px;
-    border: none;
-    color: #FFFFFF;
-    background: #FF8562;
-    border-radius: 15px;
-  }
 }
 .course--live {
   background: url('../../images/bg-live.jpg');
@@ -120,25 +105,6 @@
   &__title {
     @extend %title-font;
     margin-bottom: 79px;
-  }
-
-  &__btn {
-    display: block;
-    width: 306px;
-    text-align: center;
-    margin: 0 auto;
-    margin-top: 47px;
-    padding: 25px 0 25px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 37px;
-    border: none;
-    color: #fff;
-    background: #ff8562;
-    border-radius: 15px;
-    &:hover {
-      box-shadow: 0px -2px 12px 4px rgba(0, 0, 0, .3);
-    }
   }
 }
 
@@ -323,26 +289,6 @@
     display: flex;
     justify-content: center;
   }
-  &__button-btn {
-    display: block;
-    width: 306px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 25px 0 25px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 37px;
-    border: none;
-    color: #fff;
-    background: #ff8562;
-    border-radius: 15px;
-    &:hover {
-      box-shadow: 0px -2px 12px 4px rgba(0, 0, 0, .3);
-    }
-  }
-  &__button-btn--blue {
-    background: #7BA7FC;
-  }
 }
 .tariffs--live {
   padding: 90px 0;
@@ -376,24 +322,6 @@
     font-size: 48px;
     line-height: 55px;
     text-align: center;
-  }
-
-  &__button-btn {
-    display: block;
-    width: 306px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 25px 0 25px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 37px;
-    border: none;
-    color: #fff;
-    background: #ff8562;
-    border-radius: 15px;
-    &:hover {
-      box-shadow: 0px -2px 12px 4px rgba(0, 0, 0, .3);
-    }
   }
   &__slider-text {
     padding: 0 30px;

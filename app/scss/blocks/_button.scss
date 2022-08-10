@@ -1,0 +1,32 @@
+.button {
+  display: block;
+  width: 350px;
+  text-align: center;
+  margin: 60px auto 0;
+  padding: 35px 0 35px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 41px;
+  border: none;
+  color: #FFFFFF;
+  background: #FF8562;
+  border-radius: 15px;
+  &:hover {
+    box-shadow: 0px -2px 12px 4px rgba(0, 0, 0, .3);
+  }
+}
+.button--mini {
+  width: 306px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 25px 0 25px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+}
+.button--blue {
+  background: #7BA7FC;
+}
+.button--value {
+  margin-top: 47px;
+}

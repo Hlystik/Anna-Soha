@@ -70,25 +70,6 @@
     @extend %product-title;
     padding-right: 40px;
   }
-
-  &__header-btn {
-    display: block;
-    width: 306px;
-    text-align: center;
-    margin: 0 auto;
-    padding: 25px 0 25px;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 37px;
-    border: none;
-    color: #fff;
-    background: #ff8562;
-    border-radius: 15px;
-    &:hover {
-      box-shadow: 0px -2px 12px 4px rgba(0, 0, 0, .3);
-    }
-  }
-
   &__descr {
     font-size: 40px;
     line-height: 46px;
@@ -150,11 +131,6 @@
   &__price-new {
     @extend %product-title;
   }
-
-  &__button-btn {
-    background: #7BA7FC;
-  }
-
   &__text {
     margin-top: 424px;
     text-align: center;
