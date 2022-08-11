@@ -5,7 +5,7 @@
   &__items {
     display: flex;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
   }
 
   &__item {
@@ -13,6 +13,7 @@
     border: 1px solid #000000;
     padding: 34px 10px 34px;
     text-align: center;
+    margin: 10px;
   }
 
   &__item-title {
@@ -41,10 +42,19 @@
     display: flex;
     justify-content: space-between;
   }
-
+  &__photo-box+
+  &__photo-box {
+    margin-left: 50px;
+  }
   &__photo-img {
     max-width: 320px;
     max-height: 478px;
     object-fit: cover;
+    display: inline-block;
   }
+  &__photo-img+
+  &__photo-img {
+    margin-left: 50px;
+  }
+  
 }

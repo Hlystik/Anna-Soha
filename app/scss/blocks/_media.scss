@@ -1,0 +1,718 @@
+@media (max-width: 1472px) {
+  .teacher {
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+    &__info {
+      margin-top: 50px;
+    }
+    &__photo {
+      margin-top: 50px;
+    }
+  }
+  .skills {
+    &__items {
+      justify-content: center;
+    }
+  }
+  .skills {
+    &__photo {
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__photo-box+
+    &__photo-box {
+      margin-left: 0;
+    }
+  }
+  .quote {
+    &__wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__avatar-img {
+      width: 230px;
+      height: 230px;
+      margin: 0 auto;
+    }
+    &__text {
+      margin-top: 50px;
+    }
+  }
+  .course-spiker {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__img {
+      margin-top: 100px;
+    }
+  }
+  .tariffs {
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      margin-bottom: 30px;
+    }
+  }
+}
+@media (max-width: 1263px) {
+  .teacher {
+    &__info-title {
+      text-align: center;
+    }
+    &__wrapper {
+      justify-content: center;
+    }
+    &__info-text {
+      text-align: center;
+      margin-top: 55px;
+    }
+  }
+  .courses {
+    &__items {
+      justify-content: center;
+    }
+    &__items-item {
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+  .course-review {
+    &__item {
+      display: block;
+    }
+    &__buy {
+      margin-top: 30px;
+    }
+  }
+}
+
+
+
+@media (max-width: 1100px) {
+  .menu {
+    &__list-link {
+      font-size: 27px;
+      line-height: 34px;
+    }
+  }
+  .course-subheader {
+    &__title {
+      font-size: 61px;
+      line-height: 67px;
+    }
+    &__subtitle {
+      font-size: 30px;
+      line-height: 36px;
+      margin-bottom: 100px;
+    }
+  }
+  .course-info {
+    &__items-text {
+      font-size: 25px;
+      line-height: 27px;
+    }
+  }
+  .social {
+    &__wrapper {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__link {
+      order: 1;
+    }
+    &__text {
+      margin-left: 0;
+    }
+  }
+  .footer {
+    &__menu-link {
+      font-size: 25px;
+      line-height: 30px;
+    }
+    &__copyright p {
+      font-size: 18px;
+      line-height: 26px;
+    }
+  }
+}
+@media (max-width: 991px) {
+  .footer {
+    &__menu-link {
+      font-size: 18px;
+      line-height: 24px;
+    }
+    &__copyright p {
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  .quote {
+    padding: 120px 0 0px;
+    &__avatar-img {
+      width: 200px;
+      height: 200px;
+    }
+    &__avatar-name {
+      font-size: 20px;
+      line-height: 27px;
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
+    }
+  }
+  .social {
+    &__text {
+      font-size: 20px;
+      line-height: 27px;
+      text-align: center;
+    }
+    &__link {
+      width: 92px;
+      margin-top: 20px;
+    }
+  }
+  .course-info {
+    padding: 100px 0 100px;
+    &__items {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 100px;
+    }
+    &__items-item {
+      margin: 0;
+      margin-bottom: 50px;
+    }
+  }
+  .course-format {
+    &__item-title {
+      font-size: 30px;
+      line-height: 38px;
+    }
+  }
+  .course-students {
+    padding: 100px 0 100px;
+  }
+  .payment {
+    &__text {
+      font-size: 30px;
+      line-height: 36px;
+    }
+  }
+  .course-review {
+    &__item {
+      padding: 37px 46px 33px;
+    }
+    &__slider-text {
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 767px) {
+  .menu {
+    position: relative;
+    height: 0;
+    justify-content: flex-end;
+    &__hamburger {
+      display: block;
+      z-index: 10;
+      position: absolute;
+      margin-right: 10px;
+      top: 0;
+    }
+    &__list-item+
+    &__list-item {
+      margin-left: 0;
+    }
+    &__list {
+      background: #F7F3ED;
+      position: absolute;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      width: 100%;
+      top: -345px;
+      transition: all .5s;
+    }
+    &__list--active {
+      top: 0;
+    }
+    &__list-item {
+      margin: 10px 0;
+    }
+    &__list-link {
+      padding: 5px 0;
+    }
+  }
+  .menu--index {
+    height: 42px;
+    width: 100%;
+    background: #F7F3ED;
+  }
+  .teacher {
+    padding: 55px 0 71px;
+    &__wrapper {
+      flex-direction: column;
+    }
+    &__photo {
+      width: 339px;
+    }
+    &__info-text {
+      max-width: 475px;
+      text-align: left;
+      margin-bottom: 93px;
+    }
+  }
+  .skills {
+    padding: 19px 0 44px;
+    &__item-title {
+      font-size: 32px;
+      line-height: 33px;
+    }
+    &__item-descr {
+      font-size: 28px;
+      line-height: 29px;
+    }
+    &__link {
+      font-size: 25px;
+      line-height: 28px;
+      text-align: center;
+      margin-top: 35px;
+      display: block;
+    }
+    &__photo {
+      align-items: start;
+      
+    }
+    &__photo-box {
+      margin: 5px 0;
+      &:last-child {
+        display: flex;
+        width: 100%;
+        justify-content: end;
+      }
+    }
+    &__photo-img+
+    &__photo-img {
+      margin-left: 17px;
+    }
+    &__photo-img {
+      max-width: 238px;
+      
+    }
+  }
+  .courses {
+    padding: 40px 0 14px;
+    &__title {
+      margin-bottom: 33px;
+    }
+    &__items {
+      margin-left: 0;
+      text-align: center;
+    }
+    &__items-item {
+      border-radius: 15px;
+      box-shadow: none;
+      margin-right: 0;
+      margin: 5px 0;
+    }
+    &__items-title {
+      font-size: 32px;
+      line-height: 37px;
+    }
+    &__items-descr {
+      font-size: 29px;
+      line-height: 33px;
+    }
+    &__items-item--bg1 {
+      background: url(../../images/bg-generator.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &__items-item--bg2 {
+      background: url(../../images/bg-live.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &__items-item--bg3 {
+      background: rgba(0, 0, 0, 0.2);
+    }
+    &__items-item--bg4 {
+      background: url(../../images/bg-product.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    &__items-link {
+      left: 50%;
+      transform: translateX(-50%);
+      display: block;
+      width: 350px;
+      padding: 20px 0 20px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 29px;
+      border: none;
+      color: #000000;
+      text-decoration-line: none;
+      background: #FF8562;
+      border-radius: 30px;
+      &:hover {
+        box-shadow: 0px -2px 12px 4px rgba(0, 0, 0, .3);
+      }
+    }
+    &__items-link span {
+      display: none;
+    }
+  }
+  .quote {
+    padding: 84px 0 0px;
+    &__avatar {
+      margin-right: 0;
+      order: 1;
+    }
+    &__text {
+      margin-top: 78px;
+    }
+  }
+  .social {
+    padding: 130px 0 97px;
+  }
+  .footer {
+    &__menu-item {
+      margin: 0 13px;
+    }
+  }
+  .course-subheader {
+    padding: 172px 0 161px;
+    &__title {
+      font-size: 46px;
+      line-height: 48px;
+    }
+    &__subtitle {
+      font-size: 28px;
+      line-height: 29px;
+    } 
+  }
+  .course-info {
+    padding: 57px 0 0;
+    &__items-img {
+      width: 90px;
+    }
+    &__items {
+      margin-top: 40px;
+    }
+    &__items-item {
+      margin-bottom: 28px;
+    }
+    &__items-text {
+      margin-top: 20px;
+    }
+  }
+  .course-spiker {
+    padding: 35px 0 35px;
+    &__img {
+      max-width: 500px;
+    }
+  }
+  .course-students {
+    padding: 46px 0 46px;
+  }
+  .course-value {
+    padding: 46px 0 46px;
+  }
+  
+  .course-format {
+    padding: 63px 0 143px;
+    &__item {
+      display: block;
+      padding: 0;
+    }
+    &__item-img {
+      margin-right: 0;
+      margin: 0 auto;
+    }
+  }
+  .course-format--live {
+    padding: 50px 0 0;
+  }
+  .payment {
+    padding: 63px 0 121px;
+    &__line {
+      margin: 74px auto;
+    }
+    &__line--live {
+      margin: 65px auto;
+    }
+    &__text {
+      font-size: 26px;
+      line-height: 28px;
+    }
+  }
+  .tariffs {
+    &__item {
+      width: 100%;
+      min-height: 780px;
+    }
+    &__item-item {
+      font-size: 27px;
+      line-height: 28px;
+    }
+    &__item-title {
+      font-size: 32px;
+      line-height: 37px;
+    }
+    &__button {
+      display: block;
+    }
+  }
+  .course-review {
+    &__item {
+      padding: 22px 16px;
+    }
+    &__item-title {
+      font-size: 32px;
+      line-height: 37px;
+    }
+    &__item-text {
+      font-size: 27px;
+      line-height: 28px;
+    }
+  }
+}
+@media (max-width: 574px) {
+  .menu {
+    &__list-link {
+      font-size: 16px;
+      line-height: 22px;
+    }
+  }
+  .teacher {
+    &__info-title {
+      margin-bottom: 0;
+    }
+    &__photo {
+      width: 239px;
+    }
+  }
+  .skills {
+    &__item {
+      padding: 12px 7px 17px;
+      max-width: 179px;
+    }
+    &__item-title {
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 11px;
+    }
+    &__item-descr {
+      font-size: 12px;
+      line-height: 15px;
+    }
+    &__link {
+      font-size: 15px;
+      line-height: 22px;
+    }
+    &__photo {
+      margin-top: 37px;
+    }
+    &__photo-img {
+      width: 115px;
+    }
+  }
+  .courses {
+    &__items-title {
+      font-size: 20px;
+      line-height: 23px;
+      min-height: 70px
+    }
+    &__items-descr {
+      font-size: 13px;
+      line-height: 15px;
+    }
+    &__items-link {
+      width: 158px;
+      font-size: 15px;
+      line-height: 20px;
+      padding: 5px 0 5px;
+    }
+    &__items-item {
+      padding: 0px 10px 60px;
+      min-height: 166px;
+    }
+  }
+  .quote {
+    &__avatar-img {
+      width: 89px;
+      height: 89px;
+    }
+    &__avatar-name {
+      font-size: 13px;
+      line-height: 18px;
+      margin-top: 9px;
+    }
+  }
+  .social {
+    &__text {
+      font-size: 16px;
+      line-height: 18px;
+    }
+    &__link {
+      width: 56px;
+    }
+  }
+  .course-subheader {
+    &__title {
+      font-size: 24px;
+      line-height: 28px;
+      margin-bottom: 30px;
+    }
+    &__subtitle {
+      font-size: 20px;
+      line-height: 23px;
+      margin-bottom: 266px;
+    }
+  }
+  .course-info {
+    &__items {
+      margin-top: 21px;
+    }
+    &__items-item {
+      margin-bottom: 22px;
+    }
+    &__items-img {
+      width: 55px;
+    }
+    &__items-text {
+      max-width: 180px;
+      font-size: 16px;
+      line-height: 18px;
+      margin-top: 16px;
+    }
+  }
+  .course-spiker {
+    &__info-title {
+      margin-bottom: 24px;
+    }
+    &__img {
+      max-width: 177px;
+      margin-top: 47px;
+    }
+    &__img--generator {
+      margin-top: 0;
+    }
+    &__info-text {
+      margin-bottom: 68px;
+    }
+    &__info-text--live {
+      margin-bottom: 0;
+    }
+
+  }
+  .course-students {
+    &__title {
+      margin-bottom: 24px;
+    }
+  }
+  .course-value {
+    &__title {
+      margin-bottom: 22px;
+    }
+  }
+  .course-format {
+    &__title {
+      margin-bottom: 33px;
+    }
+    &__item-img {
+      width: 45px;
+    }
+    &__item-title {
+      font-size: 16px;
+      line-height: 18px;
+    }
+    &__item+
+    &__item {
+      margin-top: 9px;
+    }
+  }
+  .payment--live {
+    padding: 40px 0 40px;
+  }
+  .payment {
+    &__text {
+      font-size: 16px;
+      line-height: 18px;
+    }
+    &__line {
+      width: 149px;
+    }
+    &__line--live {
+      margin: 53px auto;
+    }
+  }
+  .tariffs--live {
+    padding: 35px 0;
+  }
+  .tariffs {
+    &__item {
+      min-height: 436px;
+      padding: 20px 9px 26px;
+    }
+    &__item-title {
+      font-size: 18px;
+      line-height: 21px;
+    }
+    &__item-item {
+      font-size: 16px;
+      line-height: 18px;
+      margin-left: 13px;
+      margin-top: 20px;
+    }
+    &__price-new {
+      font-size: 18px;
+      line-height: 21px;
+      margin-top: 10px;
+    }
+    &__button {
+      margin-top: 9px;
+    }
+  }
+  .course-review {
+    &__item-title {
+      font-size: 20px;
+      line-height: 23px;
+    }
+    &__item-text {
+      font-size: 16px;
+      line-height: 18px;
+    }
+    &__price {
+      font-size: 18px;
+      line-height: 21px;
+      margin-bottom: 9px;
+    }
+  }
+  .footer {
+    &__menu-item {
+      margin: 0 6px;
+    }
+    &__menu-link {
+      font-size: 10px;
+      line-height: 14px;
+    }
+    &__copyright p {
+      font-size: 10px;
+      line-height: 14px;
+    }
+  }
+
+}

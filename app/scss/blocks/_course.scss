@@ -1,8 +1,8 @@
-.course {
+.course-subheader {
   background: url('../../images/bg-generator.jpg') /* center (center/cover) no-repeat */;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   padding: 300px 0 190px;
 
   &__subtitle {
@@ -18,27 +18,19 @@
     font-size: 96px;
     line-height: 110px;
     margin-bottom: 57px;
-    @media (max-width: 991px) {
-    }
-    @media (max-width: 767px) {
-
-    }
-    @media (max-width: 574px) {
-      
-    }
   }
 }
-.course--live {
+.course-subheader--live {
   background: url('../../images/bg-live.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
-.course--product {
+.course-subheader--product {
   background: url('../../images/bg-product.jpg');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
 }
 .course-info {
   padding: 156px 0 182px;
@@ -87,9 +79,10 @@
     margin-bottom: 0;
   }
 
-/*   &__img {
+  &__img {
     object-fit: cover;
-  } */
+    max-width: 572px;;
+  }
 }
 .course-students {
   padding: 113px 0 223px;
@@ -131,10 +124,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    @media (max-width: 767px) {
-
-
-    }
   }
   &__item {
     margin-top: 70px;
@@ -155,16 +144,6 @@
     font-size: 40px;
     line-height: 100px;
     background: #F7F3ED;
-    @media (max-width: 574px) {
-
-    }
-  }
-
-  &__item-text {
-
-    @media (max-width: 574px) {
-
-    }
   }
   &__item-link {
     text-decoration-line: underline;
@@ -173,20 +152,10 @@
 .course-format {
   padding: 130px 0 165px;
   background: #F7F3ED;
-  @media (max-width: 574px) {
-  
-  }
   &__title {
     @extend %title-font;
     margin-bottom: 90px;
     text-transform: uppercase;
-    @media (max-width: 574px) {
-    }
-  }
-  &__text {
-    @media (max-width: 574px) {
-
-    }
   }
   &__item {
     display: flex;
@@ -252,7 +221,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 686px;
-    height: 917px;
+    min-height: 917px;
     padding: 45px 26px 68px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     filter: drop-shadow(0px 4px 25px rgba(0, 0, 0, 0.25));
@@ -312,7 +281,7 @@
     line-height: 55px;
   }
 
-  &__item-info {
+  &__item-text {
     font-size: 34px;
     line-height: 39px;
   }

@@ -12,8 +12,7 @@
   }
 
   &__info-title {
-    font-size: 64px;
-    line-height: 74px;
+    @extend %title-font;
     margin-bottom: 20px;
   }
   &__photo {

@@ -2,8 +2,7 @@
   padding-top: 50px;
 
   &__title {
-    font-size: 64px;
-    line-height: 74px;
+    @extend %title-font;
   }
 
   &__items {
@@ -20,6 +19,7 @@
     margin-bottom: 60px;
     max-width: 574px;
     min-height: 387px;
+    margin-right: 25px;
     padding: 0px 20px 76px;
     border: 1px solid rgba(0, 0, 0, 0.25);
     box-shadow: 4px 4px 25px 1px rgba(255, 217, 217, 0.75);
@@ -48,5 +48,8 @@
     font-size: 32px;
     line-height: 44px;
     text-decoration-line: underline;
+  }
+  &__items-link span {
+    font-size: inherit;
   }
 }

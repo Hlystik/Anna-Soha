@@ -11,9 +11,9 @@
 <body>
   
   <div class="wrapper">
-    <header class="header header--position" id="up">
+    <header class="header" id="up">
       <div class="header__wrapper">
-        <div class="container">
+        <div class="container-header">
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
@@ -32,20 +32,26 @@
                 </a>
               </li>
             </ul>
+            <a class="menu__hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
           </nav>
+        </div>
+        <div class="course-subheader">
+          <h1 class="course-subheader__title">
+            "Проживая свой дизайн" <br>для Генераторов
+          </h1>
+          <p class="course-subheader__subtitle">
+            Поможет принять себя и ответить на <br>вопрос: “Кто же я?”
+          </p>
+          <a class="button" href="#tariff">Купить курс</a>
         </div>
       </div>
     </header>
     <main class="main">
-      <section class="course">
-        <h1 class="course__title">
-          "Проживая свой дизайн" <br>для Генераторов
-        </h1>
-        <p class="course__subtitle">
-          Поможет принять себя и ответить на <br>вопрос: “Кто же я?”
-        </p>
-        <a class="button" href="#tariff">Купить курс</a>
-      </section>
+      
 
       <div class="course-info">
         <div class="container">
@@ -91,7 +97,7 @@
                 Этот курс для вас, если вы относитесь к типу Генератор (70% людей на планете Земля).
               </p>
             </div>
-            <img class="course-spiker__img" src="images/photo-spiker.jpg" alt="#">
+            <img class="course-spiker__img course-spiker__img--generator" src="images/photo-spiker.jpg" alt="#">
           </div>
         </div>
       </section>
@@ -360,15 +366,15 @@
       <div class="course-review">
         <div class="container">
           <div class="course-review__item">
-            <div>
+            <div class="course-review__info">
               <h3 class="course-review__item-title">
                 Докупить лекцию
               </h3>
-              <p class="course-review__item-info">
+              <p class="course-review__item-text">
                 Определенности в карте Генератора
               </p>
             </div>
-            <div>
+            <div class="course-review__buy">
               <p class="course-review__price">5000р</p>
               <a class="button button--mini" href="#">
                 Оплатить

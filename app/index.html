@@ -13,8 +13,8 @@
   <div class="wrapper">
     <header class="header" id="up">
       <div class="header__wrapper">
-        <div class="container">
-          <nav class="menu">
+        <div class="container-header">
+          <nav class="menu menu--index">
             <ul class="menu__list">
               <li class="menu__list-item">
                 <a class="menu__list-link" href="about.html">
@@ -32,6 +32,11 @@
                 </a>
               </li>
             </ul>
+            <a class="menu__hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
           </nav>
         </div>
       </div>
@@ -48,6 +53,7 @@
             </div>
             <img class="teacher__photo" src="images/photo_1.jpg" alt="photo">
           </div>
+          <hr class="line-mobile">
         </div>
       </section>
       <section class="skills">
@@ -82,10 +88,14 @@
             Образование, дипломы и сертификаты
           </a>
           <div class="skills__photo">
-            <img class="skills__photo-img" src="images/skills/skills_photo-1.jpg" alt="">
-            <img class="skills__photo-img" src="images/skills/skills_photo-2.jpg" alt="">
-            <img class="skills__photo-img" src="images/skills/skills_photo-3.jpg" alt="">
-            <img class="skills__photo-img" src="images/skills/skills_photo-4.jpg" alt="">
+            <div class="skills__photo-box">
+              <img class="skills__photo-img" src="images/skills/skills_photo-1.jpg" alt="">
+              <img class="skills__photo-img" src="images/skills/skills_photo-2.jpg" alt="">
+            </div>
+            <div class="skills__photo-box">
+              <img class="skills__photo-img" src="images/skills/skills_photo-3.jpg" alt="">
+              <img class="skills__photo-img" src="images/skills/skills_photo-4.jpg" alt="">
+            </div>
           </div>
         </div>
       </section>
@@ -95,7 +105,7 @@
             КУРСЫ
           </h2>
           <ul class="courses__items">
-            <li class="courses__items-item">
+            <li class="courses__items-item courses__items-item--bg1">
               <h3 class="courses__items-title">
                 “Проживая свой Дизайн” для Генераторов
               </h3>
@@ -103,10 +113,10 @@
                 Поможет понять себя и ответить на вопрос: “Кто же я?”
               </p>
               <a class="courses__items-link" href="">
-                Подробнее о курсе
+                Подробнее <span>о курсе</span>
               </a>
             </li>
-            <li class="courses__items-item">
+            <li class="courses__items-item courses__items-item--bg2">
               <h3 class="courses__items-title">
                 “Жизнь в истинном свете”
               </h3>
@@ -114,10 +124,10 @@
                 3 лекции о Дизайне Человека, гармоничных отношениях, самореализации, работе и стабильности
               </p>
               <a class="courses__items-link" href="">
-                Подробнее о курсе
+                Подробнее <span>о курсе</span>
               </a>
             </li>
-            <li class="courses__items-item">
+            <li class="courses__items-item courses__items-item--bg3">
               <h3 class="courses__items-title">
                 Дизайн Человека и деньги
               </h3>
@@ -125,10 +135,10 @@
                 Для тех, кто хочет больше зарабатывать, получать удовольствие от работы и открыть денежный поток
               </p>
               <a class="courses__items-link" href="">
-                Подробнее о курсе
+                Подробнее <span>о курсе</span>
               </a>
             </li>
-            <li class="courses__items-item">
+            <li class="courses__items-item courses__items-item--bg4">
               <h3 class="courses__items-title">
                 Чек-листы и прочее
               </h3>
@@ -136,7 +146,7 @@
                 Путеводитель по ДЧ, упражнения и другие полезные материалы
               </p>
               <a class="courses__items-link" href="">
-                Подробнее о курсе
+                Подробнее <span>о курсе</span>
               </a>
             </li>
           </ul>
@@ -144,6 +154,7 @@
       </section>
       <div class="quote">
         <div class="container">
+          <hr class="line-mobile">
           <div class="quote__wrapper">
             <div class="quote__avatar">
               <img class="quote__avatar-img" src="images/skills/skills_photo-4.jpg" alt="avatar">

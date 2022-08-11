@@ -6,8 +6,10 @@
     justify-content: space-between;
     align-items: center;
   }
-  &__avatar-img {
+  &__avatar {
     margin-right: 60px;
+  }
+  &__avatar-img {
     flex: 0 2 auto;
     border-radius: 50%;
     width: 285px;

@@ -1,8 +1,4 @@
-.header {
-/*   padding-top: 48px; */
-  z-index: 5;
-  position: relative;
-}
+
 .menu {
   position: absolute;
   height: 92px;
@@ -21,8 +17,32 @@
     font-size: 32px;
     line-height: 44px;
   }
+  
+  &__hamburger {
+    display: none;
+    width: 37px;
+    height: 0px;
+    span {
+      display: block;
+      height: 1px;
+      width: 100%;
+      background-color: #000;
+      margin: 10px 0;
+      transition: 0.5s all;
+    }
+  } 
+  &__hamburger--active {
+    span {
+      margin-bottom: -11px;
+      &:nth-child(1) {
+        transform: translateY(8px) rotate(-45deg)
+      }
+      &:nth-child(2) {
+        display: none
+      }
+      &:nth-child(3) {
+        transform: translateY(8px) rotate(45deg)
+      } 
+    } 
+  } 
 }
-/* .header--position {
-  position: relative;
-  padding-top: 0;
-} */

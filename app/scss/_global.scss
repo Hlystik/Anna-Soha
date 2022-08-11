@@ -8,15 +8,27 @@ body {
   font-size: 36px;
   line-height: 41px;
   color: #000000;
+  @media (max-width: 1100px) {
+    font-size: 30px;
+    line-height: 33px;
+  }
+  @media (max-width: 991px) {
+    font-size: 25px;
+    line-height: 27px;
+  }
+  @media (max-width: 574px) {
+    font-size: 16px;
+    line-height: 18px;
+  }
 }
 strong {
   font-weight: 700;
+  font-size: inherit;
 }
 .wrapper {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  
 }
 
 .main {
@@ -30,6 +42,30 @@ strong {
   max-width: 1490px;
   margin: 0 auto;
   padding: 0 15px;
+  @media (max-width: 767px) {
+    padding: 0 35px;
+  }
+}
+.container-header {
+  max-width: 1490px;
+  margin: 0 auto;
+  padding: 0 15px;
+  @media (max-width: 767px) {
+    padding: 0 35px;
+  }
+}
+.container-header--ignore {
+  padding: 0;
+}
+.line-mobile {
+  display: none;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 133, 98, 0.75);
+  @media (max-width: 767px) {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
 
